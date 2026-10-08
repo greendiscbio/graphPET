@@ -1,0 +1,39 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://download.pytorch.org/whl/cu124/"
+verify_ssl = true
+name = "pytorch"
+
+[packages]
+scipy = "==1.15"
+ipython = "*"
+ipykernel = "*"
+nilearn = "*"
+numpy = "*"
+pandas = "*"
+scikit-learn = "*"
+seaborn = "*"
+tqdm = "*"
+src = {file = ".", editable = true}
+pyarrow = "*"
+statsmodels = "*"
+networkx = "*"
+setuptools = "*"
+cython = "*"
+deap = "*"
+gitpython = "*"
+umap-learn = "*"
+numba = "*"
+ant-colony-optimization-css = {file = "../Ant-Colony-Optimization-CSS"}
+mlflow = "*"
+mpmath = "*"
+openpyxl = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
